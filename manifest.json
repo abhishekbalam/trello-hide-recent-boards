@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Remove Recent Boards From Trello",
-    "description": "An extension to remove the Recent Boards section in the Trello Boards page.",
+    "name": "Hide Recent Boards From Trello",
+    "description": "An extension to hide the Recent Boards section in the Trello Boards page.",
     "version": "1",
     "author": "Abhishek Balam",
     // "icons": {
