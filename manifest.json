@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "Remove Recent Boards From Trello",
+    "description": "An extension to remove the Recent Boards section in the Trello Boards page.",
+    "version": "1",
+    "author": "Abhishek Balam",
+    // "icons": {
+    //     "48": "icon48.png",
+    //     "128": "icon128.png"
+    // },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://trello.com/abhishekbalam/boards"
+            ],
+            "js": [
+                "myscript.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "*://trello.com/*",
+        "tabs",
+        "webNavigation",
+        "activeTab"
+    ]
+}
