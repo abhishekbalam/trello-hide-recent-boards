@@ -1,6 +1,6 @@
-# Hide Trello Recent Boards Section.
+# Hide Trello _Recently Viewed_ Section from the Trello Website.
 
-Hides the entire section from the Trello website.
+Hides the entire section from the Trello website. This section is not usually used and makes the boards page look unorganised.
 
 ![Hide Section](hide.png)
 
