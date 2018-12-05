@@ -4,10 +4,11 @@
     "description": "An extension to hide the Recent Boards section in the Trello Boards page.",
     "version": "1",
     "author": "Abhishek Balam",
-    // "icons": {
-    //     "48": "icon48.png",
-    //     "128": "icon128.png"
-    // },
+    "icons": {
+         "48": "./icons/icon48.png",
+         "64": "./icons/icon64.png",
+         "128": "./icons/icon128.png"
+    },
     "content_scripts": [
         {
             "matches": [
@@ -25,7 +26,7 @@
         ]
     },
     "permissions": [
-        "*://trello.com/*",
+        "*://trello.com/",
         "tabs",
         "webNavigation",
         "activeTab"
